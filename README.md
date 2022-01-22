@@ -23,7 +23,7 @@ npm start
 In your terminal naviagte to the main folder of the program (where the server.js file is located) and install: npm, sequalize, and dotenv. After that update your MySQL information into the .env file (you must create it first). Then run SQL and add the database and seed it. Quit MySQL and then run the npm start command and your api's will be working.
 
 Walkthrough Video:
-
+https://youtu.be/Hs_b-8vAyfM
 
 ## Credits
 * Node
