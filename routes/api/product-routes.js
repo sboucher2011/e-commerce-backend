@@ -22,7 +22,7 @@ router.get('/', (req, res) => {
       },
       {
         model: Tag,
-        as: 'product_tags',
+        //as: 'product_tags',
         attributes: ['id', 'tag_name'],
       }
     ]
