@@ -19,14 +19,19 @@ router.get('/', (req, res) => {
       'stock',
       'category_id',
     ],  
-    /* 
+    
     include: [
       {
-        model: Product,
-        attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+        model: Category,
+        attributes: ['id', 'category_name'],
+      },
+      {
+        model: Tag,
+        as: 'product_tags',
+        attributes: ['id', 'tag_name'],
       }
     ]
-    */
+  
   })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => {
