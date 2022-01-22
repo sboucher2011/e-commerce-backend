@@ -1,0 +1,23 @@
+//Products
+
+    //New
+	{
+		"product_name": "Football Shirt",
+		"price": 18,
+		"stock": 20,
+		"category_id": 1
+	}
+    //Update
+    	{
+		    "id": 1,
+		    "category_name": "T-Shirts"
+	    }
+
+//Categories
+	{
+		"category_name": "Workout Clothes"
+	}
+
+
+//Tags
+
