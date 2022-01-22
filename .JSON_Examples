@@ -1,23 +1,67 @@
-//Products
+mysql -u root -p
 
-    //New
+source db/schema.sql
+
+use ecommerce_db;
+
+quit;
+
+npm run seed
+
+npm start
+
+
+//Products
+//-----------------
+
+    //Get All
+    //GET 1
+    //Post
 	{
 		"product_name": "Football Shirt",
 		"price": 18,
 		"stock": 20,
 		"category_id": 1
 	}
-    //Update
-    	{
-		    "id": 1,
-		    "category_name": "T-Shirts"
-	    }
+    //Put
+
+    //delete
+    id 6
+
 
 //Categories
+//-----------------
+    //Get All
+    //GET 1
+
+    //Post
 	{
 		"category_name": "Workout Clothes"
 	}
 
+    //Put
+        	{
+		    "id": 1,
+		    "category_name": "T-Shirts"
+	    }   
+
+    //delete
+    //id 2
 
 //Tags
+//-----------------
+    //Get All
+    //Get 1
 
+    //Post
+    {
+	    "tag_name": "clothe"
+    }
+
+    //Put
+    {
+	    "tag_name": "clothes"
+    }      
+
+    //delete
+    id 9
